@@ -8,6 +8,7 @@ import (
 	"golang.org/x/net/html"
 )
 
+// Parser implements io.Reader
 var _ io.Reader = (*Parser)(nil)
 
 type Parser struct {
